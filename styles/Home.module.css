@@ -1,5 +1,11 @@
 .container {
   padding: 0 2rem;
+  position: relative;
+}
+.child {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 100%);
 }
 
 .main {
